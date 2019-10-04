@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{OpenRefine-Journal-JeremyAmin}
+\author{Jeremy Amin}
+\date{September 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Working with OpenRefine}
+
+\subsection{Entry 1: 13 SEPT 2019}
+
+\begin{enumerate}
+\item Transformed `interview\textunderscore date' to `To date'. Opened a `Text facet' and found 19 entries.
+\item Opened `Timeline facet' for `interview\textunderscore date' and found that the most number of interviews were conducted between the 16th and the 27th of NOV 2016.
+\item Opened `Text facet' and corrected the naming errors. Ended up with four names: Chirodzo, God, Ruaca and 49.
+\item Transformed the text in `items\textunderscore owned' column to remove right and left brackets, single suote marks, and spaces.
+\item Did `custom text facets' for `items\textunderscore owned'. In the Expression box  typed `value.split(";")'. In the facet I was able to arrange by `count' and see the number of entries for each item in the list.
+\item Cleaned up the `months\textunderscore lack\textunderscore food' and found that November was the most common month for respondents to lack food.
+\end{enumerate}
+
+\section{Filtering and Sorting with OpenRefine}
+\subsection{Entry 2: 4 OCT 2019}
+
+\begin{enumerate}
+    \item Did text filter and typed `mabat'. Successfully filtered mabatipitched and mabatisloping.
+    \item Opened up `Text facet' and performed the `include' and `exclude' functions in the `Excluding entries' exercise.
+    \item For the `Sort' exercise I sorted by numbers from smallest to largest. The first ten cells had zero as the number. This suggests possibly a black input which resulted in the program correcting it to zero.
+    \item Sorted the `gps\textunderscore Longitude' and gps\textunderscore Lattitude by number from largest to smallest. Found the `Village' named `49'. Once I moved the `Village' column near the `gps\textunderscore Longitude' and `gps\textunderscore Lattitude' columns I then moved `Village' back to the beginning of the spreadsheet and compared cell containing `49' with the `interview\textunderscore date' column with the same lattitude and longitude and found that only interviews in Chirodzo were held on that date. So `49' must be `Chirodzo'.
+    \item 
+\end{enumerate}
+
+\section{Examining Numbers in OpenRefine}
+
+\subsection{Entry 2: 4 OCT 2019}
+
+\begin{enumerate}
+    \item 
+\end{enumerate}
+\end{document}
